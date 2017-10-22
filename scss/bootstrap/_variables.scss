@@ -82,6 +82,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$dark-blue: 	#3b5998 !default;
 
 $colors: (
   blue: $blue,
@@ -107,7 +108,9 @@ $theme-colors: (
   warning: $yellow,
   danger: $red,
   light: $gray-100,
-  dark: $gray-800
+  dark: $gray-800,
+  black: $black,
+  dark-blue: $dark-blue 
 ) !default;
 
 // Set a specific jump point for requesting color jumps
