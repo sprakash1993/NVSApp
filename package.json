@@ -1,0 +1,19 @@
+{
+  "name": "nvsapp",
+  "version": "1.0.0",
+  "description": "NVS App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sprakash1993/NVSApp.git"
+  },
+  "author": "sprakash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprakash1993/NVSApp/issues"
+  },
+  "homepage": "https://github.com/sprakash1993/NVSApp#readme"
+}
