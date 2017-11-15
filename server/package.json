@@ -1,0 +1,19 @@
+{
+    "name": "nvsapp-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "sprakash",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "cors": "^2.8.1",
+        "express": "^4.14.0",
+        "express-jwt": "^3.4.0",
+        "jwks-rsa": "^1.2.0"
+    }
+}
