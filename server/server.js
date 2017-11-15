@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 const cors = require('cors')
 
-import TablesList from './src/views/Pages/CustomSql/tables.json';
+import TablesList from '../src/views/Pages/CustomSql/tables.json';
 
 const server = express();
 server.use(bodyParser.json());

@@ -243,9 +243,6 @@ class CustomSql extends Component {
                           />
                         </FormGroup>
                         <FormGroup>
-                          <ComboSelect data={['JA007D', 'JA008D', 'JA009D', 'JA010D']} />
-                        </FormGroup>
-                        <FormGroup>
                           <Label for="columnNames" className="text-muted">Select columns from table</Label>
                           <Select
                             name="columnNames"
