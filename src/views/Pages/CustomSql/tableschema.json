@@ -1,0 +1,201 @@
+{
+  "results": [
+    {
+      "name": "connections",
+      "schemaSpec": {
+        "columns": [
+          {
+            "name": "id",
+            "type": [
+              "Integer"
+            ],
+            "sqlType": "serial",
+            "supported": true
+          },
+          {
+            "name": "name",
+            "type": [
+              "String"
+            ],
+            "sqlType": "varchar",
+            "supported": true
+          },
+          {
+            "name": "description",
+            "type": [
+              "String"
+            ],
+            "sqlType": "varchar",
+            "supported": true
+          },
+          {
+            "name": "type",
+            "type": [
+              "String"
+            ],
+            "sqlType": "enum_connections_type",
+            "supported": false
+          },
+          {
+            "name": "createdBy",
+            "type": [
+              "Integer"
+            ],
+            "sqlType": "int4",
+            "supported": true
+          },
+          {
+            "name": "deleted_at",
+            "type": [
+              "String"
+            ],
+            "sqlType": "timestamptz",
+            "supported": true
+          },
+          {
+            "name": "isGlobal",
+            "type": [
+              "Bool"
+            ],
+            "sqlType": "bool",
+            "supported": true
+          },
+          {
+            "name": "credentialType",
+            "type": [
+              "String"
+            ],
+            "sqlType": "enum_connections_credentialtype",
+            "supported": false
+          },
+          {
+            "name": "createdAt",
+            "type": [
+              "String"
+            ],
+            "sqlType": "timestamptz",
+            "supported": true
+          },
+          {
+            "name": "updatedAt",
+            "type": [
+              "String"
+            ],
+            "sqlType": "timestamptz",
+            "supported": true
+          },
+          {
+            "name": "updatedBy",
+            "type": [
+              "Integer"
+            ],
+            "sqlType": "int4",
+            "supported": true
+          },
+          {
+            "name": "credentialsShared",
+            "type": [
+              "Bool"
+            ],
+            "sqlType": "bool",
+            "supported": true
+          },
+          {
+            "name": "uuid",
+            "type": [
+              "String"
+            ],
+            "sqlType": "uuid",
+            "supported": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "awsconfigs",
+      "schemaSpec": {
+        "columns": [
+          {
+            "name": "id",
+            "type": [
+              "Integer"
+            ],
+            "sqlType": "serial",
+            "supported": true
+          },
+          {
+            "name": "defaultBucket",
+            "type": [
+              "String"
+            ],
+            "sqlType": "varchar",
+            "supported": true
+          },
+          {
+            "name": "createdAt",
+            "type": [
+              "String"
+            ],
+            "sqlType": "timestamptz",
+            "supported": true
+          },
+          {
+            "name": "updatedAt",
+            "type": [
+              "String"
+            ],
+            "sqlType": "timestamptz",
+            "supported": true
+          },
+          {
+            "name": "credentialId",
+            "type": [
+              "Integer"
+            ],
+            "sqlType": "int4",
+            "supported": true
+          },
+          {
+            "name": "extraBuckets",
+            "type": [
+              "String"
+            ],
+            "sqlType": "text",
+            "supported": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "prakashtest",
+      "schemaSpec": {
+        "columns": [
+          {
+            "name": "col1",
+            "type": [
+              "Integer"
+            ],
+            "sqlType": "int4",
+            "supported": true
+          },
+          {
+            "name": "col2",
+            "type": [
+              "String"
+            ],
+            "sqlType": "date",
+            "supported": true
+          },
+          {
+            "name": "col3",
+            "type": [
+              "String"
+            ],
+            "sqlType": "varchar",
+            "supported": true
+          }
+        ]
+      }
+    }
+  ]
+}

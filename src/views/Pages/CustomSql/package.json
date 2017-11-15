@@ -1,0 +1,5 @@
+{
+  "name": "CustomSql",
+  "version": "1.0.0",
+  "main": "./CustomSql.js"
+}

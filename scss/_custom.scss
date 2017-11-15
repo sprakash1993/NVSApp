@@ -1,1 +1,6 @@
 // Here you can add other styles
+:global .CodeMirror {
+  font-family: Inconsolata, monospace;
+  font-size: 11pt;
+  height: 150px;
+}
