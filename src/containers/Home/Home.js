@@ -6,6 +6,7 @@ import Footer from '../../components/Footer/';
 import Breadcrumb from '../../components/Breadcrumb/';
 import Dashboard from '../../views/Dashboard/';
 import Sidebar from '../../components/Sidebar/';
+import Carousel from '../../components/Carousel/';
 
 // Icons
 import FontAwesome from '../../views/Icons/FontAwesome/';
@@ -20,9 +21,11 @@ class Home extends Component {
           <Sidebar {...this.props}/>
           <main className="main">
             <Breadcrumb />
+            <Carousel />
             <Container fluid>
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/carousal" name="Carousel" component={Carousel}/>
               </Switch>
             </Container>
           </main>

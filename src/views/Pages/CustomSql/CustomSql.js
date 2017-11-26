@@ -12,14 +12,11 @@ require('font-awesome/css/font-awesome.min.css');
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/base16-light.css';
 
-import TablesList from './tables.json';
 import TableColumns from './tableschema.json';
 
 import FilterComponent from '../../../components/FilterComponent/';
 
-import ComboSelect from 'react-combo-select';
-
-import * as api from '../../../api'
+import * as api from '../../../api';
 
 class CustomSql extends Component {
   constructor(props) {

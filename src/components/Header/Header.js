@@ -68,9 +68,9 @@ class Header extends Component {
           </NavItem>
           <HeaderDropdown />
         </Nav>
-        <NavbarToggler className="d-md-down-none" onClick={this.asideToggle}>
-          <span className="navbar-toggler-icon"></span>
-        </NavbarToggler>
+        <Nav className="d-md-down-none" >
+          <span ></span>
+        </Nav>
       </header>
     );
   }
